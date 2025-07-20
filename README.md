@@ -12,6 +12,8 @@ If you came here from LinkedIn — welcome! 👋
 
 If not, you can check out the original article here: [The SOLID Backbone of Scalable System Design](https://www.linkedin.com/pulse/solid-backbone-scalable-system-design-raj-kothari-ckt5f/?trackingId=Tey%2BurX6nXhf1Fjv8wW6mQ%3D%3D)
 
+Do follow my newsletter - [System Design Blueprint](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7351630135135002625)
+
 Let’s build a SOLID foundation together. 💡
 
 ---
