@@ -82,15 +82,6 @@ Understanding and applying SOLID:
 
 ---
 
-## ✨ What's Next?
-
-We'll extend this repo with:
-- Real-world system patterns (e.g., Strategy, Factory, Adapter)
-- Advanced design patterns beyond SOLID
-- System design topics like API design, caching, and scalability
-
----
-
 ## 🙌 Contributing
 
 Feel free to fork and extend with your own examples or improvements!
@@ -100,7 +91,7 @@ Feel free to fork and extend with your own examples or improvements!
 ## 📫 Stay Connected
 
 This project is part of my **System Design Newsletter**.  
-Subscribe here to get in-depth breakdowns of how real systems are built: [Insert your newsletter link]
+Subscribe here to get in-depth breakdowns of how real systems are built: [https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7351630135135002625]
 
 ---
 
