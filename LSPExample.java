@@ -1,23 +1,40 @@
-// Liskov Substitution Principle (LSP)
+// ✅ LISKOV SUBSTITUTION PRINCIPLE (LSP)
+// Subtypes should be substitutable for their base types.
 
-interface Bird {
+//// ❌ Bad Example: Ostrich breaks expectations because it can't fly.
+class Bird {
+    public void fly() {
+        System.out.println("Bird flying");
+    }
+}
+
+class Ostrich extends Bird {
+    public void fly() {
+        throw new UnsupportedOperationException("Ostriches can't fly!");
+    }
+}
+
+//// ✅ Good Example: Separate interfaces for flying and non-flying birds.
+
+interface IBird {
     void eat();
 }
 
-interface FlyingBird extends Bird {
+interface IFlyingBird extends IBird {
     void fly();
 }
 
-class Sparrow implements FlyingBird {
+class Sparrow implements IFlyingBird {
     public void eat() {
         System.out.println("Sparrow eating");
     }
+
     public void fly() {
         System.out.println("Sparrow flying");
     }
 }
 
-class Ostrich implements Bird {
+class Ostrich2 implements IBird {
     public void eat() {
         System.out.println("Ostrich eating");
     }
