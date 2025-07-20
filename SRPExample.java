@@ -1,14 +1,28 @@
-// Single Responsibility Principle (SRP)
+// ✅ SINGLE RESPONSIBILITY PRINCIPLE (SRP)
+// A class should have only one reason to change.
+
+//// ❌ Bad Example: This class does too much — user management AND email notification
+class BadUserService {
+    public void registerUser(String username, String password) {
+        // 1. Save user to DB
+        System.out.println("Saving user: " + username);
+
+        // 2. Send confirmation email
+        System.out.println("Sending confirmation email to: " + username);
+    }
+}
+
+//// ✅ Good Example: Each class has a single responsibility
 
 class UserRepository {
     public void save(String username, String password) {
-        System.out.println("User saved to DB.");
+        System.out.println("User saved: " + username);
     }
 }
 
 class EmailService {
     public void sendConfirmation(String email) {
-        System.out.println("Confirmation email sent to " + email);
+        System.out.println("Confirmation email sent to: " + email);
     }
 }
 
