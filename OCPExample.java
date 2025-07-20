@@ -1,4 +1,19 @@
-// Open/Closed Principle (OCP)
+// ✅ OPEN/CLOSED PRINCIPLE (OCP)
+// Classes should be open for extension, but closed for modification.
+
+//// ❌ Bad Example: Every new discount type requires modifying this class.
+class BadDiscountService {
+    public double applyDiscount(String type, double amount) {
+        if ("SEASONAL".equals(type)) {
+            return amount * 0.9;
+        } else if ("FESTIVAL".equals(type)) {
+            return amount * 0.8;
+        }
+        return amount;
+    }
+}
+
+//// ✅ Good Example: Use interface to allow adding new discounts without modifying logic.
 
 interface DiscountStrategy {
     double apply(double amount);
