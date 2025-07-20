@@ -4,6 +4,17 @@ Welcome to this educational repository where we explore the **SOLID principles**
 
 ---
 
+> 📢 **Why this repo exists**
+
+I recently shared a post on LinkedIn about the importance of understanding the SOLID principles as the foundation of good system and software design. This repository is a continuation of that thought — a hands-on companion to help you not just read about SOLID, but see how it's applied in real Java code.
+
+If you came here from LinkedIn — welcome! 👋  
+If not, you can check out the original article here: [https://www.linkedin.com/pulse/solid-backbone-scalable-system-design-raj-kothari-ckt5f/?trackingId=Tey%2BurX6nXhf1Fjv8wW6mQ%3D%3D]
+
+Let’s build a SOLID foundation together. 💡
+
+---
+
 ## ✅ What is SOLID?
 
 **SOLID** is an acronym for five object-oriented design principles:
