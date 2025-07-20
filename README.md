@@ -6,7 +6,7 @@ Welcome! This repo explores SOLID principles through clean Java examples, helpin
 
 > 📢 **Why this repo exists**
 
-I have shared a post on LinkedIn about the importance of understanding the SOLID principles as the foundation of good system and software design. This repository is a continuation of that thought — a hands-on companion to help you not just read about SOLID, but see how it's applied in real Java code.
+I have shared a post on LinkedIn about the importance of understanding the SOLID principles as the foundation of good system and software design.
 
 If you came here from LinkedIn — welcome! 👋  
 
